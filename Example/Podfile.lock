@@ -1,0 +1,16 @@
+PODS:
+  - CJMGesture (0.1.0)
+
+DEPENDENCIES:
+  - CJMGesture (from `../`)
+
+EXTERNAL SOURCES:
+  CJMGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJMGesture: 89b907db38bdb0049a3eee62c7b3296ce448f96c
+
+PODFILE CHECKSUM: 1d0ffe8349bbf5245d73f33ce256041ef2ac6578
+
+COCOAPODS: 1.9.1

@@ -9,6 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+- 平移手势
+
+```objc
+- (void)pan:(UIPanGestureRecognizer *)sender {
+    [sender cjmg_pandView:sender.view];
+}
+```
+
+- 缩放手势
+
+```objc
+- (void)pinch:(UIPinchGestureRecognizer *)sender {
+    [sender cjmg_pinchView:sender.view];
+}
+```
+
+- 旋转手势
+```objc
+- (void)rotate:(UIRotationGestureRecognizer *)sender {
+    [sender cjmg_rotateView:sender.view];
+}
+```
+
+
 ## Requirements
 
 ## Installation
