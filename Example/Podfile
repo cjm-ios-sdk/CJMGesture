@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CJMGesture_Example' do
+  pod 'CJMGesture', :path => '../'
+
+  target 'CJMGesture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
